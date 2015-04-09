@@ -2,8 +2,11 @@
 
 #'@title Get North LTER Chlorphyll Data
 #'
-#'@param 
-#'
+#'@param name Your name for LTER record keeping
+#'@param email Your email address for LTER record keeping (you will not be unneccessarily contacted)
+#'@param reason Your reason for usage of the data
+#'@param start The earliest date to request data
+#'@param end The latest date to request data
 #'
 #'@import httr
 #'
