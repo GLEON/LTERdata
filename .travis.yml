@@ -6,6 +6,8 @@
 
 language: r
 
+sudo: required
+
 env:
    global:
      - R_BUILD_ARGS=" "
