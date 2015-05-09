@@ -12,7 +12,3 @@ env:
      - R_CHECK_ARGS="--as-cran"
      - NOT_CRAN="true" 
 
-before_install:
-
-install:
-
