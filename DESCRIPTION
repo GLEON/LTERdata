@@ -1,11 +1,12 @@
 Package: LTERdata
 Type: Package
 Title: LTER data access package
-Version: 0.1.1
+Version: 0.1.2
 Date: 2015-04-09
 Authors@R: c(person("Luke", "Winslow", email="lawinslow@gmail.com", role=c('cre', 'aut')))
 Repository: https://github.com/GLEON/LTERdata
-Description: Long-Term Ecological Research (LTER) data access package. 
-Imports: 
-	httr
+Description: Long-Term Ecological Research (LTER) data access package.
+Imports:
+    httr
 License: CC0
+RoxygenNote: 5.0.1

@@ -6,10 +6,8 @@
 #'
 #'
 #'@export
+#'
 lter_buoy_wtemp = function(lake = 'SP', name='Anonymous Aardvark', email='anonymous@1.edu', reason="Academic+Research", start='1950-01-01', end='2020-01-01'){
-  
-  #curl "https://lter.limnology.wisc.edu/data/filter/11043" 
-  #   --data "chk_sampledate=1&chk_year4=1&chk_month=1&chk_daynum=1&chk_sample_time=1&chk_data_freq=1&chk_depth=1&chk_wtemp=1&chk_flag_wtemp=1&filter_sampledate_from"%"5Bdate"%"5D=2004-05-26&filter_sampledate_from"%"5Btime"%"5D=00"%"3A00&filter_sampledate_to"%"5Bdate"%"5D=2014-11-17&filter_sampledate_to"%"5Btime"%"5D=15"%"3A34&filter_year4_min=0&filter_year4_max=10&filter_month_min=0&filter_month_max=0&filter_depth_min=0&filter_depth_max=0&op=CSV&form_build_id=form-744c4c852dfca6b8b6e9a37207662c12&form_id=datacatalog_datadownload_form" --compressed
   
   header = c('Accept-Encoding'='gzip, deflate',
              'Accept-Language'='en-US,en;q=0.8', 
@@ -26,8 +24,8 @@ lter_buoy_wtemp = function(lake = 'SP', name='Anonymous Aardvark', email='anonym
   res = POST("https://lter.limnology.wisc.edu/data/filter/11043", body=body, add_headers(.headers=header), encode="form")
   
   stop_for_status(res)
-  
-  return(content(res))
+  table = read.csv(text=content(res, type = 'text/csv', as = 'text'))
+  return(table)
   
   
 }
