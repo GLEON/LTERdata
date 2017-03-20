@@ -8,17 +8,6 @@ lter_airport_meterology(name = "Anonymous Aardvark",
   email = "anonymous@1.edu", reason = "Academic+Research",
   start = "2000-01-01", end = "2001-01-01")
 }
-\arguments{
-\item{name}{Your name for LTER record keeping}
-
-\item{email}{Your email address for LTER record keeping (you will not be unneccessarily contacted)}
-
-\item{reason}{Your reason for usage of the data}
-
-\item{start}{The earliest date to request data}
-
-\item{end}{The latest date to request data}
-}
 \description{
 LTER Airport meterology station. Data are pulled the website here https://lter.limnology.wisc.edu/data/filter/10856
 }
