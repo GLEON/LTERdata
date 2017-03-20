@@ -4,21 +4,9 @@
 \alias{lter_secchi_basecrew}
 \title{Get secchi and other standard base crew observed data}
 \usage{
-lter_secchi_basecrew(name = "Anonymous Aardvark", email = "anonymous@1.edu",
-  reason = "Academic+Research", start = "1950-01-01", end = "2020-01-01")
-}
-\arguments{
-\item{name}{Your name for LTER record keeping}
-
-\item{email}{Your email address for LTER record keeping (you will not be unneccessarily contacted)}
-
-\item{reason}{Your reason for usage of the data}
-
-\item{start}{The earliest date to request data}
-
-\item{end}{The latest date to request data}
+lter_secchi_basecrew()
 }
 \description{
-Data from here https://lter.limnology.wisc.edu/data/filter/5724
+Data from here https://lter.limnology.wisc.edu/dataset/north-temperate-lakes-lter-secchi-disk-depth-other-auxiliary-base-crew-sample-data-1981-curr
 }
 

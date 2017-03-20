@@ -3,6 +3,7 @@
 export(lter_POSIXct)
 export(lter_airport_meterology)
 export(lter_buoy_wtemp)
+export(lter_lake_chemistry)
 export(lter_north_chla)
 export(lter_secchi_basecrew)
 import(httr)
