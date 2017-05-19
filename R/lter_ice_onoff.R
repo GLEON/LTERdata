@@ -12,6 +12,8 @@
 #' @import httr
 #' @import dplyr
 #' @importFrom lubridate mdy
+#' @import methods
+#' @import utils
 #' 
 #' @export
 lter_ice_onoff = function(){
