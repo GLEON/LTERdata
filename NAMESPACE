@@ -2,13 +2,11 @@
 
 export(lter_POSIXct)
 export(lter_airport_meterology)
-export(lter_buoy_wtemp)
 export(lter_chla)
 export(lter_ice_onoff)
 export(lter_lake_chemistry)
 export(lter_secchi_basecrew)
 import(dplyr)
 import(httr)
-import(methods)
 import(utils)
 importFrom(lubridate,mdy)

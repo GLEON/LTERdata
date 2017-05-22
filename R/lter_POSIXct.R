@@ -3,7 +3,11 @@
 #'
 #'@param sampledate LTER sampledate, typically in YYYY-MM-DD format. Sometimes has additional 00:00:00 appended.
 #'@param sampletime LTER sampletime, a numeric value where 100 is 1:00, 130 is 1:30, 30 is 0:30, and etc.
+#'@param tz Timezone for output POSIXct value.
 #'
+#'@description
+#'LTER has a integer numeric format for times where the 100's place is used for hours, and the 10's place is 
+#'used for minutes. This function takes a date and that LTER time and returns a POSIXct representation.
 #'
 #'@examples
 #'

@@ -10,5 +10,5 @@ Imports:
     httr,
     dplyr,
     lubridate
-License: CC0
+License: GPL-3
 RoxygenNote: 5.0.1

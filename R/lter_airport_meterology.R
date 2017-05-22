@@ -14,9 +14,11 @@
 #'
 #'@export
 #'
-lter_airport_meterology = function(name='Anonymous Aardvark', email='anonymous@1.edu', reason="Academic+Research", start='2000-01-01', end='2001-01-01'){
+lter_airport_meterology = function(){
 	
 
+  stop('currently not implemented')
+  
 	header = c('Accept-Encoding'='gzip, deflate',
 						 'Accept-Language'='en-US,en;q=0.8', 
 						 'Accept' = 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',

@@ -4,9 +4,7 @@
 \alias{lter_airport_meterology}
 \title{Get high-resolution meterology data}
 \usage{
-lter_airport_meterology(name = "Anonymous Aardvark",
-  email = "anonymous@1.edu", reason = "Academic+Research",
-  start = "2000-01-01", end = "2001-01-01")
+lter_airport_meterology()
 }
 \description{
 LTER Airport meterology station. Data are pulled the website here https://lter.limnology.wisc.edu/data/filter/10856
